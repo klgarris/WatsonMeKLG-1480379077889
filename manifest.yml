@@ -1,0 +1,14 @@
+applications:
+- path: mendixBoilerplate.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WatsonMeKLG
+  host: WatsonMeKLG
+  disk_quota: 1024M
+  services:
+  - Visual Recognition-9p
+  - Conversation-7v
+  - WatsonMeKLG-cleardb
+  - Text to Speech-od
+  - availability-monitoring-auto
